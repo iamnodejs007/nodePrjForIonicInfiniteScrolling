@@ -28,7 +28,7 @@ app.use('/api', products);
 
 
 
-var server = app.listen(3000, function () {
+var server = app.listen(80, function () {
 
 // Connection URL
 //var url = 'mongodb://0.0.0.0:27017/myproject';
