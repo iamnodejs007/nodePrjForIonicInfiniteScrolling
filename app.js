@@ -29,7 +29,7 @@ app.use('/api', products);
 
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
-  var url = 'mongodb://root:root@ds047772.mongolab.com:47772/mymongodb'
+  var url = 'mongodb://admin:admin@ds151702.mlab.com:51702/iamnodejs007'
    mongoosex.connect(url);
 });
 
